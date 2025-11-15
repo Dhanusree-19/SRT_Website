@@ -127,6 +127,14 @@ export default {
           "50%": {
             transform: "translateY(-20px)"
           }
+        },
+        "pulse-glow": {
+          "0%, 100%": {
+            filter: "drop-shadow(0 0 20px hsl(48 85% 55% / 0.6))"
+          },
+          "50%": {
+            filter: "drop-shadow(0 0 40px hsl(48 85% 55% / 0.9))"
+          }
         }
       },
       animation: {
@@ -137,6 +145,7 @@ export default {
         "slide-in-right": "slide-in-right 0.6s ease-out",
         "scale-in": "scale-in 0.5s ease-out",
         "float": "float 3s ease-in-out infinite",
+        "pulse-glow": "pulse-glow 3s ease-in-out infinite",
       },
     },
   },
