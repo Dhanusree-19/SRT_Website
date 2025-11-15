@@ -1,4 +1,4 @@
-import { Phone, Mail } from "lucide-react";
+import { Phone } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const Hero = () => {
@@ -22,20 +22,13 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="animate-fade-in flex flex-wrap gap-4 justify-center pt-4" style={{ animationDelay: "0.4s", animationFillMode: "both" }}>
+        <div className="animate-fade-in flex justify-center pt-4" style={{ animationDelay: "0.4s", animationFillMode: "both" }}>
           <a 
             href="tel:9865553184" 
-            className="inline-flex items-center gap-2 bg-primary hover:bg-secondary text-primary-foreground px-6 py-3 rounded-lg font-semibold transition-all hover:scale-105"
+            className="inline-flex items-center gap-2 bg-primary hover:bg-secondary text-primary-foreground px-8 py-4 rounded-lg font-semibold text-lg transition-all hover:scale-105 shadow-lg"
           >
-            <Phone className="w-5 h-5" />
+            <Phone className="w-6 h-6" />
             Call Now
-          </a>
-          <a 
-            href="mailto:sriradhatravelsbalu@gmail.com" 
-            className="inline-flex items-center gap-2 border-2 border-primary hover:bg-primary text-foreground hover:text-primary-foreground px-6 py-3 rounded-lg font-semibold transition-all hover:scale-105"
-          >
-            <Mail className="w-5 h-5" />
-            Email Us
           </a>
         </div>
       </div>
