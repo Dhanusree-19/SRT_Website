@@ -9,7 +9,7 @@ const Hero = () => {
           <img 
             src={logo} 
             alt="Sri Radha Travels and Transport" 
-            className="w-64 h-64 md:w-80 md:h-80 mx-auto object-contain animate-float animate-pulse-glow"
+            className="w-64 h-64 md:w-80 md:h-80 mx-auto object-contain animate-float"
           />
         </div>
         
