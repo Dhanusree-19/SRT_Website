@@ -119,6 +119,14 @@ export default {
             opacity: "1",
             transform: "scale(1)"
           }
+        },
+        "float": {
+          "0%, 100%": {
+            transform: "translateY(0px)"
+          },
+          "50%": {
+            transform: "translateY(-20px)"
+          }
         }
       },
       animation: {
@@ -128,6 +136,7 @@ export default {
         "slide-in-left": "slide-in-left 0.6s ease-out",
         "slide-in-right": "slide-in-right 0.6s ease-out",
         "scale-in": "scale-in 0.5s ease-out",
+        "float": "float 3s ease-in-out infinite",
       },
     },
   },
